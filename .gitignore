@@ -51,3 +51,4 @@ dip.yml
 # Ignore rvm gemset file
 .ruby-gemset
 
+.vercel
