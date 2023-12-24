@@ -46,7 +46,7 @@
         }
       },
       "imagemagick": {
-        "version": null,
+        "version": "7.1.1-23",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
@@ -333,7 +333,7 @@
         }
       },
       "vips": {
-        "version": null,
+        "version": "8.15.1",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
