@@ -1,8 +1,22 @@
 {
-    "build": {
-      "env": {
-        "RUBY_VERSION": "3.2.2"
+    "version": 2,
+    "builds": [
+      {
+        "src": "vercel-build.sh", 
+        "use": "@vercel/ruby",
+        "config": {
+          "ruby-version": "3.2.2" 
+        }
       }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ],
+    "env": {
+      "RUBY_ENV": "production" 
     }
   }
   
